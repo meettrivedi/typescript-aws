@@ -21,4 +21,4 @@ new CdkTestStack(app, 'CdkTestStack', {
 });
 
 // example of another stack
-new CdkTestStack(app, 'CdkTestStack2', {});
+// new CdkTestStack(app, 'CdkTestStack2', {});
