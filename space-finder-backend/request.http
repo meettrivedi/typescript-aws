@@ -1,0 +1,6 @@
+@endpoint = https://dgn13muc22.execute-api.us-west-2.amazonaws.com/prod
+
+GET {{endpoint}}/hello/
+###
+
+GET {{endpoint}}/hello-nodejs/
