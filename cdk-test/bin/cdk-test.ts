@@ -19,3 +19,6 @@ new CdkTestStack(app, 'CdkTestStack', {
 
   /* For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html */
 });
+
+// example of another stack
+new CdkTestStack(app, 'CdkTestStack2', {});

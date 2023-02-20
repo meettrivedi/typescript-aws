@@ -4,7 +4,10 @@ This is a blank project for CDK development with TypeScript.
 
 To start a default cdk project, run the following commands:
 
-```bash cdk init app --language typescript ```
+```$ cdk init app --language typescript ```
+``` cdk bootstrap --profile prod ```
+``` cdk synth ```
+``` cdk deploy ```
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
