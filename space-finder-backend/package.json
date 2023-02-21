@@ -23,6 +23,7 @@
     "webpack-cli": "^5.0.1"
   },
   "dependencies": {
+    "@types/aws-lambda": "^8.10.110",
     "@types/uuid": "^9.0.0",
     "aws-sdk": "^2.1319.0",
     "uuid": "^9.0.0"

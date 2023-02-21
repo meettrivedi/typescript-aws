@@ -3,4 +3,26 @@
 GET {{endpoint}}/hello/
 ###
 
-GET {{endpoint}}/hello-nodejs/
+GET {{endpoint}}/spaces?SpaceId=6d76070e-54fa-4a81-acb3-4d234e9ea913
+###
+
+GET {{endpoint}}/spaces?location=Vadodara
+###
+
+POST {{endpoint}}/spaces/
+content-type: application/json
+
+{
+  "location": "Vadodara",
+  "name": "Home Town"
+}
+###
+
+PUT {{endpoint}}/spaces?SpaceId=6d76070e-54fa-4a81-acb3-4d234e9ea913
+content-type: application/json
+
+{
+  "location": "Los Angeles",
+  "name": "New Town"
+}
+###
